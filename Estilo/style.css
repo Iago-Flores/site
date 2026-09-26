@@ -1,0 +1,41 @@
+.nome {
+    font-weight: bold;
+    animation: color-change 2s infinite;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 5vw, 8rem);
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 50vw;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+list {
+    text-align: center;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: white;
+    }
+}
