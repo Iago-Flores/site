@@ -4,7 +4,11 @@
 }
 
 h1 {
-    font-size: clamp(1.8rem, 5vw, 8rem);
+    font-size: clamp(1.8rem, 5vw, 5rem);
+}
+
+p {
+    font-size: clamp(0.8rem, 2vw, 2rem);
 }
 
 body {
@@ -22,6 +26,7 @@ img {
 }
 
 list {
+    font-size: clamp(0.8rem, 1vw, 2rem);
     text-align: center;
 }
 
