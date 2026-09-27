@@ -4,11 +4,15 @@
 }
 
 h1 {
-    font-size: clamp(28px, 4vw, 56px);
+    font-size: clamp(80px, 1vw, 120px);
 }
 
 p {
-    font-size: clamp(16px, 1.2vw, 18px);
+    font-size: clamp(20px, 5vw, 25px);
+}
+
+h3 {
+    font-size: clamp(20px, 1.2vw, 25px);
 }
 
 body {
@@ -25,8 +29,9 @@ img {
     object-fit: cover;
 }
 
-ul {
-    font-size: clamp(0.8rem, 1vw, 2rem);
+dt,
+dd {
+    font-size: clamp(20px, 1.8vw, 25px);
     text-align: center;
     list-style-position: inside;
 }
