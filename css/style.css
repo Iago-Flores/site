@@ -25,7 +25,9 @@ h3 {
 }
 
 body {
-    padding: 3vw;
+    font-family: Quantico;
+    padding-right: 5vw;
+    padding-left: 5vw;
     background-color: black;
     color: white;
     text-align: center;
